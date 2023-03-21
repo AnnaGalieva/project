@@ -1,196 +1,283 @@
-                    * {
-                        margin: 0;
-                        padding: 0;
-                    }
-                    
-                    body {
-                        background: #020A18;
-                        backdrop-filter: blur(100px);
-                        border-radius: 10px;
-                        font-family: 'Open Sans', sans-serif;
-                    }
-                    
-                    .top {
-                        padding-bottom: 99px;
-                    }
-                    
-                    .header {
-                        background-color: rgba(255, 255, 255, 0, 02);
-                        backdrop-filter: blur(100px);
-                        border-radius: 10px;
-                        padding-top: 39px;
-                        padding-bottom: 39px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        gap: 40px;
-                    }
-                    
-                    .header__link {
-                        font-family: 'Open Sans';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 16px;
-                        line-height: 22px;
-                        color: #FFFFFF;
-                    }
-                    
-                    .top__content {
-                        margin-top: 160px;
-                        margin-bottom: 197px;
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        align-items: center;
-                        gap: 128px;
-                    }
-                    
-                    .subtitle {
-                        Width: 265px;
-                        margin-bottom: 10px;
-                        font-family: 'Open Sans';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 18px;
-                        line-height: 160%;
-                        text-transform: uppercase;
-                        color: #3A68B8;
-                    }
-                    
-                    .title {
-                        Width: 604px;
-                        margin-bottom: 40px;
-                        font-family: 'Open Sans';
-                        font-style: normal;
-                        font-weight: 800;
-                        font-size: 55px;
-                        line-height: 130%;
-                        color: #FFFFFF;
-                    }
-                    
-                    .top__buttons {
-                        margin-top: 50px;
-                        display: flex;
-                        gap: 20px;
-                    }
-                    
-                    .button {
-                        display: flex;
-                        flex-direction: row;
-                        align-items: flex-start;
-                        padding: 15px 30px;
-                        gap: 10px;
-                        flex: none;
-                        order: 0;
-                        flex-grow: 0;
-                        background: #3A68B8;
-                        color: #FFFFFF;
-                        border-radius: 5px;
-                        padding: 15px 30px;
-                        display: inline-block;
-                    }
-                    
-                    .text {
-                        font-family: 'Open Sans';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 18px;
-                        line-height: 160%;
-                        color: #FFFFFF;
-                        opacity: 0.7;
-                        Width: 558px;
-                    }
-                    
-                    .img {
-                        background: url(9.png);
-                    }
-                    
-                    .top__logos {
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                        gap: 71px;
-                        justify-content: center;
-                        align-items: center;
-                    }
-                    
-                    .center {
-                        padding-left: calc(50% - 573px);
-                        padding-right: calc(50% - 573px);
-                    }
-                    
-                    .item {
-                        background: #132035;
-                        border-radius: 10px;
-                        padding: 30px;
-                        display: grid;
-                        justify-items: center;
-                        gap: 30px;
-                    }
-                    
-                    .item_big {
-                        grid-column: span 2;
-                        grid-row: span 2;
-                        gap: 60px;
-                    }
-                    
-                    .heading {
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 25px;
-                        line-height: 125%;
-                        text-align: center;
-                        color: #FFFFFF;
-                    }
-                    
-                    .item__text {
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 16px;
-                        line-height: 26px;
-                        text-align: center;
-                        color: #FFFFFF;
-                    }
-                    
-                    .content {
-                        display: grid;
-                        justify-content: center;
-                        gap: 30px;
-                        grid-template-columns: repeat(3, 362px);
-                        padding-top: 264px;
-                        padding-bottom: 243px;
-                    }
-                    
-                    @media(max-width:1024px) {
-                        .center {
-                            padding-left: calc(50% - 376px);
-                            padding-right: calc(50% - 376px);
-                        }
-                        .subtitle {
-                            font-size: 16px;
-                        }
-                        .title {
-                            font-size: 48px;
-                        }
-                        .top__logos {
-                            gap: 32px;
-                            max-width: 650px;
-                            margin: auto;
-                        }
-                        .top {
-                            padding-bottom: 120x;
-                        }
-                        .content {
-                            grid-template-columns: repeat(1, 362px);
-                            gap: 30px;
-                        }
-                        .item_big {
-                            grid-column: span 1;
-                            grid-row: span 1;
-                            gap: 30px;
-                        }
-                        .item_big img {
-                            width: 98px;
-                        }
-                    }
+                                                        * {
+                                                            margin: 0;
+                                                            padding: 0;
+                                                        }
+                                                        
+                                                        img {
+                                                            max-width: 100%;
+                                                        }
+                                                        
+                                                        body {
+                                                            background: #020A18;
+                                                            backdrop-filter: blur(100px);
+                                                            border-radius: 10px;
+                                                            font-family: 'Open Sans', sans-serif;
+                                                        }
+                                                        
+                                                        .top {
+                                                            padding-bottom: 99px;
+                                                        }
+                                                        
+                                                        .header {
+                                                            background-color: rgba(255, 255, 255, 0, 02);
+                                                            backdrop-filter: blur(100px);
+                                                            border-radius: 10px;
+                                                            padding-top: 39px;
+                                                            padding-bottom: 39px;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            gap: 40px;
+                                                        }
+                                                        
+                                                        .header__link {
+                                                            font-family: 'Open Sans';
+                                                            font-style: normal;
+                                                            font-weight: 600;
+                                                            font-size: 16px;
+                                                            line-height: 22px;
+                                                            color: #FFFFFF;
+                                                        }
+                                                        
+                                                        .top__content {
+                                                            margin-top: 160px;
+                                                            margin-bottom: 197px;
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            flex-wrap: wrap;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            gap: 128px;
+                                                        }
+                                                        
+                                                        .subtitle {
+                                                            Width: 265px;
+                                                            margin-bottom: 10px;
+                                                            font-family: 'Open Sans';
+                                                            font-style: normal;
+                                                            font-weight: 600;
+                                                            font-size: 18px;
+                                                            line-height: 160%;
+                                                            text-transform: uppercase;
+                                                            color: #3A68B8;
+                                                        }
+                                                        
+                                                        .title {
+                                                            Width: 604px;
+                                                            margin-bottom: 40px;
+                                                            font-family: 'Open Sans';
+                                                            font-style: normal;
+                                                            font-weight: 800;
+                                                            font-size: 55px;
+                                                            line-height: 130%;
+                                                            color: #FFFFFF;
+                                                        }
+                                                        
+                                                        .top__buttons {
+                                                            margin-top: 50px;
+                                                            display: flex;
+                                                            gap: 20px;
+                                                        }
+                                                        
+                                                        .button {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            align-items: flex-start;
+                                                            padding: 15px 30px;
+                                                            gap: 10px;
+                                                            flex: none;
+                                                            order: 0;
+                                                            flex-grow: 0;
+                                                            background: #3A68B8;
+                                                            color: #FFFFFF;
+                                                            border-radius: 5px;
+                                                            padding: 15px 30px;
+                                                            display: inline-block;
+                                                        }
+                                                        
+                                                        .text {
+                                                            font-family: 'Open Sans';
+                                                            font-style: normal;
+                                                            font-weight: 600;
+                                                            font-size: 18px;
+                                                            line-height: 160%;
+                                                            color: #FFFFFF;
+                                                            opacity: 0.7;
+                                                            Width: 558px;
+                                                        }
+                                                        
+                                                        .img {
+                                                            background: url(9.png);
+                                                        }
+                                                        
+                                                        .top__logos {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            flex-wrap: wrap;
+                                                            gap: 71px;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .center {
+                                                            padding-left: calc(50% - 573px);
+                                                            padding-right: calc(50% - 573px);
+                                                        }
+                                                        
+                                                        .item {
+                                                            background: #132035;
+                                                            border-radius: 10px;
+                                                            padding: 30px;
+                                                            display: grid;
+                                                            justify-items: center;
+                                                            gap: 30px;
+                                                        }
+                                                        
+                                                        .item_big {
+                                                            grid-column: span 2;
+                                                            grid-row: span 2;
+                                                            gap: 60px;
+                                                        }
+                                                        
+                                                        .heading {
+                                                            font-style: normal;
+                                                            font-weight: 700;
+                                                            font-size: 25px;
+                                                            line-height: 125%;
+                                                            text-align: center;
+                                                            color: #FFFFFF;
+                                                        }
+                                                        
+                                                        .item__text {
+                                                            font-style: normal;
+                                                            font-weight: 600;
+                                                            font-size: 16px;
+                                                            line-height: 26px;
+                                                            text-align: center;
+                                                            color: #FFFFFF;
+                                                        }
+                                                        
+                                                        .content {
+                                                            display: grid;
+                                                            justify-content: center;
+                                                            gap: 30px;
+                                                            grid-template-columns: repeat(3, 362px);
+                                                            padding-top: 264px;
+                                                            padding-bottom: 243px;
+                                                        }
+                                                        
+                                                        .content_about {
+                                                            padding-bottom: 243px;
+                                                            margin-bottom: 221px;
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            flex-wrap: nowrap;
+                                                            gap: 25px;
+                                                            justify-content: center;
+                                                        }
+                                                        
+                                                        .title_about {
+                                                            font-style: normal;
+                                                            font-weight: 700;
+                                                            font-size: 40px;
+                                                            line-height: 130%;
+                                                            color: #FFFFFF;
+                                                            width: 548px;
+                                                        }
+                                                        
+                                                        .text_about {
+                                                            font-style: normal;
+                                                            font-weight: 600;
+                                                            font-size: 16px;
+                                                            line-height: 160%;
+                                                            color: #FFFFFF;
+                                                            opacity: 0.7;
+                                                            width: 460px;
+                                                        }
+                                                        
+                                                        .titles_about {
+                                                            display: grid;
+                                                            justify-items: center;
+                                                            gap: 20px;
+                                                            padding-bottom: 40px;
+                                                        }
+                                                        
+                                                        @media(max-width: 1024px) {
+                                                            .center {
+                                                                padding-left: calc(50% - 376px);
+                                                                padding-right: calc(50% - 376px);
+                                                            }
+                                                            .subtitle {
+                                                                font-size: 16px;
+                                                            }
+                                                            .title {
+                                                                font-size: 48px;
+                                                            }
+                                                            .top__logos {
+                                                                gap: 32px;
+                                                                max-width: 650px;
+                                                                margin: auto;
+                                                            }
+                                                            .top {
+                                                                padding-bottom: 120x;
+                                                            }
+                                                            .content {
+                                                                grid-template-columns: repeat(1, 362px);
+                                                                gap: 30px;
+                                                            }
+                                                            .item_big {
+                                                                grid-column: span 1;
+                                                                grid-row: span 1;
+                                                                gap: 30px;
+                                                            }
+                                                            .item_big img {
+                                                                width: 98px;
+                                                            }
+                                                            .content_about {
+                                                                flex-wrap: wrap;
+                                                                padding-bottom: 273px;
+                                                            }
+                                                        }
+                                                        
+                                                        @media(max-width:768px) {
+                                                            .center {
+                                                                padding-left: 16px;
+                                                                padding-right: 16px;
+                                                            }
+                                                            .header__link {
+                                                                font-size: 14px;
+                                                                gap: 32px;
+                                                            }
+                                                            .header {
+                                                                padding-top: 39px;
+                                                                padding-bottom: 39px;
+                                                                justify-content: space-between;
+                                                            }
+                                                            .top {
+                                                                justify-content: center;
+                                                            }
+                                                            .top__info {
+                                                                justify-content: center;
+                                                                flex-direction: column;
+                                                                width: 342px;
+                                                            }
+                                                            .subtitle {
+                                                                font-size: 14px;
+                                                                padding-bottom: 16px;
+                                                            }
+                                                            .title {
+                                                                font-size: 28px;
+                                                                padding-bottom: 64px;
+                                                            }
+                                                            .text {
+                                                                padding-bottom: 39px;
+                                                            }
+                                                            .title_about {
+                                                                font-size: 24px;
+                                                                padding-bottom: 16px
+                                                            }
+                                                            .titles_about {
+                                                                gap: 16px;
+                                                                padding-bottom: 32px;
+                                                            }
+                                                        }
