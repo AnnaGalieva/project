@@ -241,17 +241,18 @@
                                                         
                                                         @media(max-width:768px) {
                                                             .center {
-                                                                padding-left: 16px;
-                                                                padding-right: 16px;
+                                                                padding-left: 8px;
+                                                                padding-right: 8px;
                                                             }
                                                             .header__link {
                                                                 font-size: 14px;
+                                                                line-height: 19px;
                                                                 gap: 32px;
                                                             }
                                                             .header {
-                                                                padding-top: 39px;
-                                                                padding-bottom: 39px;
-                                                                justify-content: space-between;
+                                                                padding-top: 22px;
+                                                                padding-bottom: 22px;
+                                                                gap: 16px;
                                                             }
                                                             .top {
                                                                 justify-content: center;
@@ -270,6 +271,7 @@
                                                                 padding-bottom: 64px;
                                                             }
                                                             .text {
+                                                                padding-right: 0px;
                                                                 padding-bottom: 39px;
                                                             }
                                                             .title_about {
